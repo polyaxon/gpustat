@@ -1,0 +1,5 @@
+blessings>=1.6
+nvidia-ml-py; python_version <= '2.7'
+nvidia-ml-py3==7.352.0; python_version >= '3.0'
+psutil
+six==1.11.0
