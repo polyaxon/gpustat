@@ -8,3 +8,7 @@ python:
 script:
   # pytest --verbose -s  (print stdouts, etc.)
   - 'PYTEST_ADDOPTS="-s" python setup.py test'
+
+notifications:
+  slack:
+    secure: byI7Qz4HS8dyZa8saV/DTWGAumVc16/Y3ABkR5fVBpxrZquUFQp0TiF10oLru9jI2AZjk5PlPsdQd22NjB+f3lY2Y7NhtJ6WuKmmE+PQFRWWewd2jBibIHNFWJxvpUbRmuBFwDkfYgRwIn0FOWxVXO2bg08197mkZkjha5KvT+nLqP2UfdclY/VezSYsglrQO1xduIFyQSUE6e7s8CqB3+5Udx8hoo9zKNHnCv3T5PkWEij60dCxuKk2TJsYESBD6u088PC6D8PGSoap3BdaKII7I8zbtYvQjj9hgo3s3lvwqv3Mf4MPUiMrSapWNT8Cdc7/le0r0cyGc+t5HwJGuXIcBiNqyOpuBKJnidkbWUJFWJspDOpg1Z7RSN4pO6LOgD78G70NMvmr6TtKk7XPcD7dShw2e/NxPy3A+HazcO09Z4uLQh1fx4c/XeHWp4rlRDJSSx4K60hdkrO9NHEogtJLaDntcxsGvMG1hYq57v/Cc7GH1RZNnd647SH2L1dy+WFkduwi+lzfAWShposgzjaaHjOvXvKsPLBNp3gmY24QPq1PMqfhS0SIqXMrot70LlsMatjK/cLG2GtUyYOHx0MRjJXAIY+AhdOEcFtgiOh2gHWgo8f0wwQzvsHxWJvFKmdYh+vhfsJNxx76o5K0UgNoDMWpaM6OYoTAJKGzPGY=
