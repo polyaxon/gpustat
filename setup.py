@@ -1,7 +1,4 @@
 from setuptools import setup
-import sys
-
-IS_PY_2 = (sys.version_info[0] <= 2)
 
 
 def read_readme():
@@ -10,15 +7,14 @@ def read_readme():
 
 
 install_requires = [
-    'six>=1.7',
-    'nvidia-ml-py>=7.352.' if IS_PY_2 else 'nvidia-ml-py3==7.352.0',
-    'psutil',
-    'blessings>=1.6',
+    'nvidia-ml-py3==7.352.0',
+    'psutil==5.4.3',
+    'blessings==1.6.1',
 ]
 
 tests_requires = [
-    'mock>=2.0.0',
-    'pytest',
+    'mock==2.0.0',
+    'pytest==3.7.0',
 ]
 
 setup(
