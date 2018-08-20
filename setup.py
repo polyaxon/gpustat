@@ -19,7 +19,7 @@ tests_requires = [
 
 setup(
     name='polyaxon-gpustat',
-    version='0.1.8',
+    version='0.1.9',
     license='MIT',
     description='An utility to monitor NVIDIA GPU status and usage',
     url='https://github.com/polyaxon/polyaxon-gpustat',
