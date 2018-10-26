@@ -19,12 +19,12 @@ tests_requires = [
 
 setup(
     name='polyaxon-gpustat',
-    version='0.2.8',
+    version='0.2.9',
     license='MIT',
     description='An utility to monitor NVIDIA GPU status and usage',
     url='https://github.com/polyaxon/polyaxon-gpustat',
     author='Mourad Mourafiq',
-    author_email='mourad.mourafiq@gmail.com',
+    author_email='mourad@polyaxon.com',
     keywords='nvidia-smi gpu cuda monitoring gpustat',
     classifiers=[
         # https://pypi.python.org/pypi?%3Aaction=list_classifiers
