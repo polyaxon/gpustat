@@ -13,7 +13,7 @@ install_requires = [
 ]
 
 tests_requires = [
-    'mock==2.0.0',
+    'mock==3.0.5',
     'pytest==3.7.0',
 ]
 
