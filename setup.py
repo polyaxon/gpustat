@@ -8,7 +8,7 @@ def read_readme():
 
 install_requires = [
     'nvidia-ml-py3==7.352.0',
-    'psutil==5.4.7',
+    'psutil==5.6.3',
     'blessings==1.6.1',
 ]
 
